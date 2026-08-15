@@ -319,7 +319,7 @@ export default function Report() {
   return (
     <>
       <Navbar />
-      <Canvas bgColor="bg-orange-100 py-16">
+      <Canvas bgColor="bg-orange-50 py-16">
         <div
           style={{
             height: "400px",
