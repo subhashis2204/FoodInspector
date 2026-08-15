@@ -9,6 +9,7 @@ import ImageUpload from "./Pages/ImageUpload";
 import Information from "./Pages/Info";
 import Navbar from "./components/Navbar";
 import MainPage from "./Pages/MainPage";
+import Report from "./Pages/Report";
 import { useState } from "react";
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
               path="/info"
               element={<Information responsedata={response} />}
             />
+
+            <Route path="/report" element={<Report />} />
           </Routes>
         </section>
       </BrowserRouter>
